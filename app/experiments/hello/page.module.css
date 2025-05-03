@@ -26,7 +26,8 @@
   margin-left: -0.07em;
   animation-name: slide-in;
   animation-property: transform;
+  animation-delay: 0.1s;
   animation-duration: 1s;
-  animation-timing-function: cubic-bezier(0, 1, 0.5, 1);
-  animation-fill-mode: forwards;
+  animation-timing-function: cubic-bezier(0.2, 1, 0.5, 1);
+  animation-fill-mode: backwards;
 }
