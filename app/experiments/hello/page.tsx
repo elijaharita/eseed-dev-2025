@@ -10,7 +10,15 @@ export default function Home() {
     setText("goodbye!");
 
     setTimeout(() => {
-      history.back();
+      if (history.length > 1) {
+        history.back();
+      } else {
+        if (Math.random() > 0.5) {
+          window.location.href = "https://x.com/elijaharita";
+        } else {
+          window.location.href = "https://bsky.app/profile/eilj.bsky.social";
+        }
+      }
     }, 500);
   };
 
