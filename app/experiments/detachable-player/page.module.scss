@@ -1,0 +1,40 @@
+.root {
+    display: flex;
+    flex-direction: column;
+    max-width: 480px;
+    gap: 32px;
+    margin: 0 auto;
+    margin-top: 128px;
+}
+
+.miniPlayerBackground {
+    background-color: var(--foreground);
+    border-radius: 4px;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%;
+    height: 0;
+    max-width: 905px;
+    margin: 0 auto;
+    background: var(--color-black);
+    border-radius: 4px;
+}
+
+.columns {
+    display: flex;
+
+    > * {
+        flex: 1 0 0;
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+    }
+}
+
+.video {
+    border-radius: 4px;
+    box-shadow: 0 2px 16px rgba(0, 0, 0, 0.3);
+}
