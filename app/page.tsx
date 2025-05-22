@@ -1,3 +1,7 @@
+import { redirect } from "next/navigation";
+
 export default function Page() {
-  return <div>Hello</div>;
+  redirect("/experiments/detachable-player");
+
+  return <div></div>;
 }

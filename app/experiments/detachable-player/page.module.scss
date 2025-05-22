@@ -25,6 +25,7 @@
 
 .columns {
     display: flex;
+    gap: 32px;
 
     > * {
         flex: 1 0 0;
